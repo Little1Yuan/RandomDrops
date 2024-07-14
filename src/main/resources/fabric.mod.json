@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "liweird1",
+  "version": "${version}",
+  "name": "RandomDrops",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/Little1Yuan/RandomDrops"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "cn.little1yuan.liweird1.client.LiWeird1Client"
+    ],
+    "main": [
+      "cn.little1yuan.liweird1.LiWeird1"
+    ]
+  },
+  "mixins": [
+    "liweird1.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${0.14}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
